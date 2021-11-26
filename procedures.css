@@ -1,6 +1,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	padding: 0% 3% 0% 3%;
+	background: linear-gradient(30deg, rgba(0, 0, 0, 0.44) 0%, rgba(255, 255, 255, 0.65) 100%);
 }
 
 .hautdepage {
@@ -32,6 +33,9 @@ body {
 /* navbar */
 
 .navbar {
+	top: -1px;
+	position: -webkit-sticky;
+	position: sticky;
 	margin-top: 12.5px;
 	border: solid 2px;
 	border-color: black;
@@ -63,9 +67,10 @@ body {
   background-color: #e2dddc;
 }
 
-#navlink2 {
-	background-color: #9e9a99;
+#navlink1 {
+    background-color: #9e9a99;
 }
+
 
 /* partie 1 */
 

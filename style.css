@@ -1,5 +1,6 @@
 body {
 	font-family: 'Lato', sans-serif;
+	background: linear-gradient(30deg, rgba(0, 0, 0, 0.44) 0%, rgba(255, 255, 255, 0.65) 100%);
 }
 
 .header {
