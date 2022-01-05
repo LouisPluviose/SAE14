@@ -1,6 +1,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	padding: 0% 3% 0% 3%;
+	background: linear-gradient(30deg, rgba(0, 0, 0, 0.44) 0%, rgba(255, 255, 255, 0.65) 100%);
 }
 
 .hautdepage {
@@ -16,8 +17,7 @@ body {
 
 .header {
 	background-color: #EEEAE9;
-	height: calc(125px - 40px);
-	padding-top: 40px;
+	height: 10%;
 	border: solid 2px;
 	border-color: black;
 	border-radius: 5px;
@@ -33,6 +33,9 @@ body {
 /* navbar */
 
 .navbar {
+	top: -1px;
+	position: -webkit-sticky;
+	position: sticky;
 	margin-top: 12.5px;
 	border: solid 2px;
 	border-color: black;
@@ -65,8 +68,9 @@ body {
 }
 
 #navlink3 {
-	background-color: #9e9a99;
+    background-color: #9e9a99;
 }
+
 
 /* partie 1 */
 
@@ -132,11 +136,35 @@ section > p {
 	padding: 0px 12px 0px 12px;
 }
 
+/* Autres */
+
+.autres {
+	margin-top: 2.5%;
+    margin-right: 10%;
+    background-color: #EEEAE9;
+	border: solid 2px;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 30px 1px rgba(0,0,0,0);
+}
+
+.autres > h2 {
+	text-align: center;
+}
+
+.autres > h3 {
+	padding-left: 8px;
+}
+
+.autres > p {
+	padding: 0px 12px 0px 12px;
+}
+
 /* Galerie d'image */
 
 .photo {
 	margin-top: 2.5%;
-	margin-right: 10%;
+	margin-left: 10%;
 	background-color: #EEEAE9;
 	border: solid 2px;
 	border-color: black;
