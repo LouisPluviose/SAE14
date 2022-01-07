@@ -112,6 +112,12 @@ section > p {
 	padding: 0% 8px 0% 8px;
 }
 
+#video {
+	padding-left: 8px;
+	padding-bottom: 8px;
+}
+
+
 /* Expériences */
 
 .experience {
@@ -135,6 +141,17 @@ section > p {
 .experience > p {
 	padding: 0px 12px 0px 12px;
 }
+
+.experience > img {
+	width: 80%;
+	height: auto;
+	margin-top: 2.5px;
+}
+
+.photo4 {
+	margin: 0% 10% 0% 10%;
+}
+
 
 /* Autres */
 
